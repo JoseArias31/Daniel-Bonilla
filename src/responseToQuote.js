@@ -1,7 +1,7 @@
 import { client1, client2, client3, client4, client5, client6  } from './clientQuotes.js';
 
 
-function generateResponse(client) {
+export function generateResponse(client) {
     // Generates ramdon prices, times and ubications to fix the divice
     const totalPrice = `$${Math.floor(Math.random() * 100) + 50}`;
     const timeToFix = `${Math.floor(Math.random() * 5) + 1} days`;
